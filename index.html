@@ -18,7 +18,7 @@
 	<div class="container">
 	Background color is:  
 	<script>
-		document.write(document.body.style.background)
+		document.write(window.getComputedStyle( document.body ,null).getPropertyValue('background-color'))  
 	</script>
 	
 	</div>
