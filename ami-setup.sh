@@ -5,3 +5,5 @@ sudo yum -y install ansible
 
 sudo yum -y install docker
 sudo service docker start
+
+sudo yum -y install jq
